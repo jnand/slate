@@ -21,7 +21,7 @@ Quick Start
 ```bash
 ❯ cd ./slate
 ❯ docker build –t slate .
-❯ docker run --detach -it -p 4567:4567 --volume $PWD/source:/app/source slate
+❯ docker run --detach -it -p 4567:4567 -p 35729:35729 --volume $PWD/source:/app/source slate
 ```
 
 The docker container should now be watching your `$PWD` and serving them locally at http://localhost:4567.
