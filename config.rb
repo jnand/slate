@@ -51,7 +51,9 @@ end
 # Deploy Configuration
 # If you want Middleman to listen on a different port, you can set that below
 set :port, 4567
-activate :livereload
+activate :livereload, host: '127.0.0.1', apply_js_live: false, apply_css_live: false, livereload_css_target: nil
+
+activate :pry
 
 helpers do
   require './lib/toc_data.rb'

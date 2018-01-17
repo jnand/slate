@@ -12,3 +12,11 @@ gem 'redcarpet', '~> 3.4.0'
 gem 'nokogiri', '~> 1.6.8'
 gem 'execjs', '~> 2.7.0'
 gem 'therubyracer', '~> 0.12.3', :platforms => :ruby
+
+# Development
+gem 'middleman-pry'
+gem "byebug"
+gem 'pry'
+gem 'pry-remote'
+gem 'pry-stack_explorer'
+gem 'pry-byebug'
